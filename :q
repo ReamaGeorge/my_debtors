@@ -1,0 +1,58 @@
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# On branch main
+# Your branch is up to date with 'origin/main'.
+#
+# Changes to be committed:
+#	modified:   .gitignore
+#	new file:   DMA/DMA/__init__.py
+#	new file:   DMA/DMA/asgi.py
+#	new file:   DMA/DMA/settings.py
+#	new file:   DMA/DMA/urls.py
+#	new file:   DMA/DMA/wsgi.py
+#	new file:   DMA/apps/__init__.py
+#	new file:   DMA/apps/common/__init__.py
+#	new file:   DMA/apps/common/admin.py
+#	new file:   DMA/apps/common/apps.py
+#	new file:   DMA/apps/common/migrations/__init__.py
+#	new file:   DMA/apps/common/models.py
+#	new file:   DMA/apps/common/tests.py
+#	new file:   DMA/apps/common/urls.py
+#	new file:   DMA/apps/common/views.py
+#	new file:   DMA/apps/complaint/__init__.py
+#	new file:   DMA/apps/complaint/admin.py
+#	new file:   DMA/apps/complaint/apps.py
+#	new file:   DMA/apps/complaint/migrations/__init__.py
+#	new file:   DMA/apps/complaint/models.py
+#	new file:   DMA/apps/complaint/tests.py
+#	new file:   DMA/apps/complaint/views.py
+#	new file:   DMA/apps/records/__init__.py
+#	new file:   DMA/apps/records/admin.py
+#	new file:   DMA/apps/records/apps.py
+#	new file:   DMA/apps/records/migrations/__init__.py
+#	new file:   DMA/apps/records/models.py
+#	new file:   DMA/apps/records/tests.py
+#	new file:   DMA/apps/records/views.py
+#	new file:   DMA/apps/users/__init__.py
+#	new file:   DMA/apps/users/admin.py
+#	new file:   DMA/apps/users/apps.py
+#	new file:   DMA/apps/users/migrations/__init__.py
+#	new file:   DMA/apps/users/models.py
+#	new file:   DMA/apps/users/tests.py
+#	new file:   DMA/apps/users/views.py
+#	new file:   DMA/manage.py
+#	new file:   DMA/static/common/home.css
+#	new file:   DMA/templates/common/home.html
+
+
+PHASE 1: Project Setup
+
+1. Created a virtual environment
+2. Installed Django and other python packages - django.extensions and python-decouple
+3. Started Django project DMA  
+4. Stored Secret key/Config keys in environment variables
+5. Create Apps (Common, Complaint, Records, Users)
+6. Configured Templates and Static folders
+7. Pushed to GitHub
